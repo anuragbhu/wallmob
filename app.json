@@ -11,7 +11,7 @@
       "backgroundColor": "#ffffff"
     },
     "android": {
-      "package": "com.yourcompany.yourappname",
+      "package": "com.anuragbhu.wallmob",
       "versionCode": 1
     },
     "updates": {

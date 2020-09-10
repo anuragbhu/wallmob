@@ -86,7 +86,7 @@ export default class App extends React.Component {
           console.log(error);
         });
     } else {
-      alert('Requires cameral roll permission');
+      alert('Requires media library permission');
     }
   };
 

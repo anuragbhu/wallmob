@@ -10,15 +10,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
+    "assetBundlePatterns": ["**/*"],
     "web": {
       "favicon": "./assets/favicon.png"
     }

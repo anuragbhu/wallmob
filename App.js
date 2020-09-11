@@ -46,9 +46,7 @@ export default class App extends React.Component {
 
   loadWallpapers = () => {
     axios
-      .get(
-        'https://api.unsplash.com/photos/random?count=30&client_id=JQr7uC8jUNk4NTcRDNMeCb010lENEGm6WI0-jnUWHBk'
-      )
+      .get()
       .then(
         function (response) {
           console.log(response.data);
